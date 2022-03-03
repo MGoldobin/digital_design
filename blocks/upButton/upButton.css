@@ -1,0 +1,16 @@
+.upButton {
+  position: fixed;
+  top: 90%;
+  right: 3%;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.upButton:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
