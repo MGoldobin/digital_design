@@ -1,10 +1,11 @@
 @import url('./__title/header__title.css');
 @import url('./__logo/header__logo.css');
+@import url('./__link/header__link.css');
 
 .header {
   display: flex;
-  justify-content: center;
-  border-bottom: 1px solid #000;
-  height: 100px;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  position: relative;
 }
