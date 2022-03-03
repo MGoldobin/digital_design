@@ -1,0 +1,10 @@
+@import url('./__title/header__title.css');
+@import url('./__logo/header__logo.css');
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+  height: 100px;
+  width: 100%;
+}
