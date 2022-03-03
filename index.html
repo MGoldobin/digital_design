@@ -10,10 +10,124 @@
   <div class="page">
     
     <header class="header">
-      <img src="./image/logo.png" alt="React" class="header__logo">
-      <h1 class="header__title">React</h1>
+      <h1 class="header__title">
+        Обзор 
+        <a href="https://ru.reactjs.org/" class="header__link">
+          <code>
+            &lt;React /&gt;
+          </code>
+        </a> 
+      </h1>
+      <img src="./image/logo.svg" alt="React" class="header__logo">
     </header>
 
+    <div class="overview">
+      <p>
+        React — это декларативная, эффективная и гибкая JavaScript-библиотека для создания 
+        пользовательских интерфейсов. Она позволяет вам собирать сложный UI из маленьких 
+        изолированных кусочков кода, называемых «компонентами».
+      </p>
+    </div>
+
+    <div class="advantage">
+      <p class="advantage__title">Особенности и преимущества</p>
+      <ul class="advantage__list">
+        
+        <li class="advantage__card">
+          <a class="advantage__span" href="https://ru.react.js.org/docs/introducing-jsx.html">JSX</a>
+           - это расширение синтаксиса JavaScript, которое позволяет использовать 
+          HTML-подобный синтаксис для описания структуры интерфейса.
+        </li>
+
+        <li class="advantage__card">
+          <a class="advantage__span" href="https://ru.reactjs.org/docs/state-and-lifecycle.html">Props и State</a>
+           - это объекты, которые содержат информацию, которая влияет на то, что увидим после рендера компонета. 
+           Однако Props передается при создании компонета, а State изменяется во время жизненного цикла компонета.
+        </li>
+
+        <li class="advantage__card">
+          <a class="advantage__span" href="https://ru.reactjs.org/docs/state-and-lifecycle.html">VDOM</a>
+           - это концепция программирования, в которой идеальное или «виртуальное» представление 
+           пользовательского интерфейса хранится в памяти и синхронизируется с «настоящим» DOM при помощи библиотеки, 
+           такой как ReactDOM. Этот процесс называется согласованием.
+        </li>
+
+        <li class="advantage__card">
+          и другое...
+        </li>
+      </ul>
+    </div>
+
+    <div class="npm">
+      <p class="npm__title">Популярные npm пакеты для работы с react</p>
+      <ul class="npm__packages">
+
+        <li class="npm__item">
+          <p class="npm__paragraph">Название пакета: 
+            <a href="https://www.npmjs.com/package/create-react-app" class="npm__link">
+              create-react-app
+            </a>
+          </p>
+          <p class="npm__paragraph">Назначение: удобный и лучший способ начать создание нового одностраничного приложения на React</p>
+          <p class="npm__paragraph">Количество скчиваний: 172к</p>
+        </li>
+  
+        <li class="npm__item">
+          <p class="npm__paragraph">Название пакета: 
+            <a href="https://www.npmjs.com/package/react-router-dom" class="npm__link">
+              react-router-dom
+            </a>
+          </p>
+          <p class="npm__paragraph">Назначение: инструмент для роутинга и связывание DOM элементов</p>
+          <p class="npm__paragraph">Количество скчиваний: 7.3м</p>
+        </li>
+  
+        <li class="npm__item">
+          <p class="npm__paragraph">Название пакета: 
+            <a href="https://www.npmjs.com/package/react-redux" class="npm__link">
+              redux и react-redux
+            </a>
+          </p>
+          <p class="npm__paragraph">Назначение: инструмент для управления глобальным состоянием</p>
+          <p class="npm__paragraph">Количество скчиваний: 7.1м и 5.1м</p>
+        </li>
+  
+        <li class="npm__item">
+          <p class="npm__paragraph">Название пакета: 
+            <a href="https://www.npmjs.com/package/axios" class="npm__link">
+              axios
+            </a>
+          </p>
+          <p class="npm__paragraph">Назначение: HTTP-клиент на основе Promise для браузера и node.js</p>
+          <p class="npm__paragraph">Количество скчиваний: 25.8м</p>
+        </li>
+  
+        <li class="npm__item">
+          <p class="npm__paragraph">Название пакета: 
+            <a href="https://www.npmjs.com/package/@material-ui/core" class="npm__link">
+              @material-ui/core
+            </a>
+          </p>
+          <p class="npm__paragraph">Назначение: UI kit с компонентами React для более быстрой и простой веб-разработки.</p>
+          <p class="npm__paragraph">Количество скчиваний: 2.1м</p>
+        </li>
+  
+        <li class="npm__item">
+          <p class="npm__paragraph">Название пакета: 
+            <a href="" class="npm__link">
+              jest
+            </a>
+          </p>
+          <p class="npm__paragraph">Назначение: тестирование JavaScript и React</p>
+          <p class="npm__paragraph">Количество скчиваний: 16м</p>
+        </li>
+  
+      </ul>
+    </div>
+    
+
+    <button class="upButton">↑</button>
   </div>
+  <script src="./index.js"></script>
 </body>
 </html>
